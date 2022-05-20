@@ -1,0 +1,38 @@
+.h{
+    display: flex;
+    background: hsl(215, 28%, 17%);
+    height: 50px;
+    margin: -8px;
+    margin-top: -8px;
+    align-items: center;    
+    gap: 10px;
+}
+
+.title{
+    color: #F9FAF8;
+    font-size: 24px;
+    margin-left: 109px; 
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
+
+.spacer {
+    background: hsl(215, 28%, 17%);
+    height: 25px;
+    width: 1625px;
+    display: flex;
+    flex: 0 1 auto;
+}
+
+
+ul{
+    color: #F9FAF8;
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    flex-shrink: 0;
+    margin-right: 100px;
+}
