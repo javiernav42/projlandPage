@@ -34,5 +34,104 @@ ul{
     list-style: none;
     gap: 10px;
     flex-shrink: 0;
-    margin-right: 100px;
+    margin-right: 175px;
 }
+
+.cont1{
+    display: flex;
+    background: hsl(215, 28%, 17%);
+    height: 550px;
+    margin: 8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.twa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.htext{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: extra-bold;
+}
+
+.para{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.placeimg{
+    height: 150px;
+    width: 380px;
+    background: lightblue;
+    
+
+}
+
+.estupimg{
+    display: flex;
+    background: gray;
+    height: 150px;
+    width: 380px;
+    justify-content: center;
+    align-items: center;
+    }
+
+    button.beastup{
+        background: royalblue;
+        border: 1px solid royalblue;
+        color: white;
+        font-weight: bold;
+    }
+
+    button{
+        padding: 8px 16px;
+        border-radius: 8px;
+        margin-top: 10px;
+        width: 135px;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .infocon{
+        display: flex;
+        border: 1px solid black;
+        height: 344px;
+        background: white;
+        margin-top: -8px;
+        margin-left: -8px;
+        margin-right: -8px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    img.dumb{
+        display: flex;
+        width: 150px;
+        height: 150px;
+        border: 2px solid black;
+        border-radius: 80px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .stup{
+        display: flex;
+        
+        width: 300px;
+        height: 300px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
