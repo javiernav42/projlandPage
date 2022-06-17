@@ -1,17 +1,18 @@
 .h{
     display: flex;
-    background: hsl(215, 28%, 17%);
+    background: black;
     height: 50px;
     margin: -8px;
     margin-top: -8px;
     align-items: center;    
     gap: 10px;
+    min-width: 998.200px;
 }
 
 .title{
     color: #F9FAF8;
     font-size: 24px;
-    margin-left: 109px; 
+    margin-left: 40px; 
 }
 
 img {
@@ -20,7 +21,7 @@ img {
 }
 
 .spacer {
-    background: hsl(215, 28%, 17%);
+    background:black;
     height: 25px;
     width: 1625px;
     display: flex;
@@ -39,15 +40,15 @@ ul{
 
 .cont1{
     display: flex;
-    background: hsl(215, 28%, 17%);
-    height: 550px;
+    background: black;
+    height: 350px;
     margin: 8px;
     margin-left: -8px;
     margin-right: -8px;
     gap: 80px;
     justify-content: center;
     align-items: center;
-
+    min-width: 998.200px;
 }
 
 .twa {
@@ -60,7 +61,6 @@ ul{
 .htext{
     font-size: 48px;
     color: #F9FAF8;
-    font-weight: extra-bold;
 }
 
 .para{
@@ -69,69 +69,165 @@ ul{
 }
 
 .placeimg{
-    height: 150px;
-    width: 380px;
-    background: lightblue;
-    
 
+    
 }
 
-.estupimg{
+img.estupimg{
     display: flex;
-    background: gray;
-    height: 150px;
-    width: 380px;
+    height: 230px;
+    width: 230px;
     justify-content: center;
     align-items: center;
     }
 
-    button.beastup{
+button.beastup{
         background: royalblue;
         border: 1px solid royalblue;
         color: white;
         font-weight: bold;
     }
 
-    button{
+button{
         padding: 8px 16px;
         border-radius: 8px;
         margin-top: 10px;
         width: 135px;
     }
 
-    a{
+a{
         text-decoration: none;
         color: white;
     }
 
-    .infocon{
+.infocon{
         display: flex;
-        border: 1px solid black;
         height: 344px;
         background: white;
-        margin-top: -8px;
+        
         margin-left: -8px;
         margin-right: -8px;
         justify-content: space-around;
         align-items: center;
+        min-width: 998.20px;
     }
 
-    img.dumb{
+.meet{
+        font-size: 48px;
+        margin-top: 40px;
+        margin-left: 40px;
+        min-width: 998.200px;
+    }
+
+img.dumb{
         display: flex;
-        width: 150px;
-        height: 150px;
-        border: 2px solid black;
-        border-radius: 80px;
+        width: 200px;
+        height: 200px;
+        border: 2px solid hsl(215, 28%, 17%);
+        border-radius: 105px;
         justify-content: center;
         align-items: center;
+        
     }
 
-    .stup{
+.stup{
         display: flex;
-        
         width: 300px;
         height: 300px;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+        font-size: 24px;
     }
+
+.quotecon{
+    display: flex;
+    height: 150px;
+    background: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    margin: -8px;
+    min-width: 998.20px;
+}
+
+.mark{
+    display: flex;
+    font-weight: 1000;
+
+}
+
+.chupa{
+    display:flex;
+    font-weight: 100;
+}
+
+.pers{
+    display: flex;
+    font-weight: 900;
+    justify-content: right;
+    margin-top: 10px;
+}
+
+.call{
+    height: fit-content;
+    background: black;
+    color: #F9FAF8;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    margin: -8px;
+    min-width: 998.20px;
+}
+
+.who{
+    font-size: 48px;
+    height: 90px;
+    background: black;
+    color: #F9FAF8;
+    margin: -8px;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    min-width: 998.200px;
+}
+
+.move{
+    margin-left: 110px;
+}
+
+.mov2{
+    height: 50%;
+    min-height: 300px;    
+    background: black;
+    color: #F9FAF8;
+    margin: -8px;
+    display: flex;
+    min-width: 998.200px;
+}
+
+.expl{
+    margin-left: 505px;
+    font-size: 18px; 
+    padding: 15px;
+}
+
+.socon{
+    background:black;
+    height: 173px;
+}
+
+.so{
+    padding: 30px;
+    margin-right: 175px;
+    font-size: 41px;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
